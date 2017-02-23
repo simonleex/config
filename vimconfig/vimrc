@@ -20,6 +20,7 @@ Bundle 'toupeira/vim-desertink'
 Bundle "tpope/vim-fugitive"
 Bundle "jlanzarotta/bufexplorer"
 
+Bundle 'fatih/vim-go'
 " Bundle 'scrooloose/syntastic'
 
 """""""""""""""""""""""""""""""""""""""""""""
@@ -54,7 +55,6 @@ set expandtab
 " 设置主题
 syntax enable
 set background=dark
-colorscheme desertink
 " 开启语法高亮
 syntax on
 " 忽略输入错误的警告声
@@ -205,7 +205,6 @@ let g:winManagerWidth = 35 " winmanager宽度 默认为25
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                   文件跳转                                "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <c-b> :e #<CR>
 
 
 
