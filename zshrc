@@ -86,10 +86,20 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gogo="cd ~/go"
-alias grab="cd /Users/lixinmin/go/src/github.com/myteksi/go"
+alias dcoin="cd /Users/lixinmin/go/src/git.intra.dcoin.com/dcoin/exchange"
 alias gdi="git diff"
 alias gst="git status"
 export GOPATH=~/go
 export GOBIN=$GOPATH/bin
+export ARC=~/codebox/arc/arcanist/bin
 
-export PATH=$PATH:$GOBIN:$GOPATH/src/github.com/myteksi/go/scripts
+export PATH=$PATH:$GOBIN:$GOPATH/src/github.com/myteksi/go/scripts:$ARC
+
+
+#source /Users/lixinmin/go/src/git.intra.dcoin.com/dcoin/exchange/scripts/set-env.sh
+
+#export CONSUL_URL="10.19.191.166:8500"
+export CONSUL_URL="10.19.97.116:8500"
+export CONFIG_HOME="config"
+#export CONSUL_TOKEN="63ecfa5d-c13b-f165-0c27-472e0284938d"
+export CONSUL_TOKEN="2f7683cd-9ecf-effc-dc4b-51169f21d0ee"
